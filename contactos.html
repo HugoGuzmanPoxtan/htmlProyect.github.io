@@ -24,7 +24,46 @@
 
     <main>
         <h1>Contacto</h1>
+        <img src="imgs/imagen24.png" class="imagen" width="300px">
+
+        <h2>¿Deseas contactarnos?</h2>
+        <p>Ingresa tus datos para mas informacion</p>
+
     </main>
+
+    <hr>
+    
+    <div class="formulario">
+        <form action="mailto:info@derecho.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="edad">Edad:</label>
+            <input type="number">
+            <br><br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="sexo" name="sexo" value="masculino" required>
+            <label for="sexo">Masculino</label>
+            <input type="radio" id="sexo" name="sexo" value="femenino" required>
+            <label for="sexo">Femenino</label>
+            <br><br>
+            <label for="municipio">Municipio:</label>
+            <select id="municipio" name="municipio" required>
+                <option selected value="municipio1">Santiago Tuxtla</option>
+                <option value="municipio2">San Andres Tuxtla</option>
+                <option value="municipio3">Catemaco</option>
+            </select>   
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
 
     <div class="botones">
         <a href="recursos.html"><img src="imgs/boton_anterior.png" width="250" height="100"></a>
@@ -33,6 +72,6 @@
 </body>
 
 <footer>
-    <marquee><p>&copy; 2026 Derecho - Jehieli Ayleen campechano Guzmán</p></marquee>
+    <marquee><p>&copy; 2026 Derechos Reservados - Jehieli Ayleen campechano Guzmán</p></marquee>
 </footer>
 </html>
